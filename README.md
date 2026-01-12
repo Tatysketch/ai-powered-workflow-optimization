@@ -1,4 +1,6 @@
 🔎 Análise do Cenário e Desafios Estratégicos
+
+
 🏢 Contexto Organizacional
 A empresa atua no setor de ferramentas de colaboração online, um mercado de alta competitividade que exige lançamentos constantes de funcionalidades.
 📈 Recentemente, uma campanha de marketing agressiva aumentou a pressão sobre o time de engenharia, evidenciando falhas estruturais no fluxo de trabalho.
