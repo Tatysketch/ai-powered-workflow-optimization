@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/Tatysketch/ai-powered-workflow-optimization/actions/workflows/main.yml/badge.svg)](https://github.com/Tatysketch/ai-powered-workflow-optimization/actions/workflows/main.yml)
+
 📊 Análise do Cenário e Desafios Estratégicos
 
 🏢 Contexto Organizacional
