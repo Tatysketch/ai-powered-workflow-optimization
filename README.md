@@ -31,3 +31,13 @@ A eficácia desta estratégia é comprovada pelo Mercado Livre, a maior empresa 
 - 🛠️ Implementação: A empresa adotou o GitHub Copilot para mais de 9.000 desenvolvedores.
 - 📉 Resultados: Relatórios indicam uma redução de até 50% no tempo de escrita de código manual.
 - 🏗️ Impacto: A ferramenta permitiu manter a consistência em uma arquitetura de mais de 30 mil microsserviços, provando que a IA é essencial para escalar operações de tecnologia com qualidade.
+
+
+🚀 Estrutura do Projeto
+Este repositório demonstra o uso de IA para acelerar o ciclo de desenvolvimento:
+
+app.js: API criada com auxílio do GitHub Copilot.
+
+app.test.js: Testes automatizados gerados por IA para garantir a qualidade.
+
+.github/workflows: Automação (CI) que valida o código a cada entrega.
