@@ -1,0 +1,20 @@
+const express = require('express');
+const app = express();
+app.use(express.json());
+
+let tarefas = [];
+
+// Prompt: Crie uma rota POST para salvar uma tarefa e uma GET para listar
+app.post('/tarefas', (req, res) => {
+    const { titulo } = req.body;
+    if (!titulo) return res.status(400).json({ erro: "Título é obrigatório" });
+    const novaTarefa = { id: tarefas.length + 1, titulo, status: 'pendente' };
+    tarefas.push(novaTarefa);
+    res.status(201).json(novaTarefa);
+});
+
+app.get('/tarefas', (req, res) => {
+    res.json(tarefas);
+});
+
+module.exports = app;
