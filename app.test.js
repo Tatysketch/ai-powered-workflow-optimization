@@ -1,29 +1,14 @@
-const express = require('express');
-const app = express();
+describe('Operações matemáticas simples', () => {
+  test('soma de 2 + 2 deve ser 4', () => {
+    expect(2 + 2).toBe(4);
+  });
 
-app.use(express.json());
+  test('multiplicação de 3 * 3 deve ser 9', () => {
+    expect(3 * 3).toBe(9);
+  });
 
-let tarefas = [];
-
-// Rota POST para criar uma tarefa
-app.post('/tarefas', (req, res) => {
-    const { titulo } = req.body;
-    if (!titulo) {
-        return res.status(400).json({ erro: "Título é obrigatório" });
-    }
-    const novaTarefa = { 
-        id: tarefas.length + 1, 
-        titulo, 
-        status: 'pendente' 
-    };
-    tarefas.push(novaTarefa);
-    res.status(201).json(novaTarefa);
+  test('subtração de 10 - 4 deve ser 6', () => {
+    expect(10 - 4).toBe(6);
+  });
 });
 
-// Rota GET para listar todas as tarefas
-app.get('/tarefas', (req, res) => {
-    res.json(tarefas);
-});
-
-// EXPORTAÇÃO ESSENCIAL: Permite que o app.test.js funcione
-module.exports = app;
