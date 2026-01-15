@@ -1,7 +1,6 @@
 {
   "name": "ai-powered-workflow-optimization",
   "version": "1.0.0",
-  "description": "Projeto UniFECAF - IA Driven Software Engineering",
   "main": "app.js",
   "scripts": {
     "test": "jest"
