@@ -29,3 +29,4 @@ describe('API de Tarefas', () => {
     expect(Array.isArray(resposta.body)).toBe(true);
   });
 });
+module.exports = app;
